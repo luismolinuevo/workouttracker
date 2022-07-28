@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #659DBD;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Tile styles*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+/*Form Styles*/
+
+#workout-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#workout-form input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+
+#submit {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    font-weight: bold; 
+}
+
+.form-container {
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
+}
+
+/*Work outs*/
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px 50px;
+    
+}
+
+/*Workout Container*/
+
+#workouts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    display: flex;
+    width: 50px;
+    padding: 5px;
+    margin: auto;
+}
+
+/*If I cant center a button margin auto does the trick*/

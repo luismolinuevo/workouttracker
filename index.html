@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Luis Workout App</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="title">Workout App</h1>
+            <div class="form-container">
+                <form id="workout-form" action="">
+                    <input type="text" placeholder="Workout Name" name="workout-name" id="won"required>
+                    <input type="text" placeholder="Sets x Reps" name="reps" id="rn" required>
+                    <input type="text" placeholder="Working Set Weight" name="working-set" id="wsn" required>
+                    <input type="text" placeholder="PR" name="PR" id="max" required>
+                </form>
+                <button id="submit">Submit</button>   
+            </div>
+            <div id="workoutscon">
+                <div class="items">
+                    <p>Workout Name: $element.won</p>
+                    <p>Sets x Reps: $element.repa</p>
+                    <p>Working Set: $element.wsa</p>
+                    <p>PR: $element.pra</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
